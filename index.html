@@ -1,0 +1,30 @@
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Определение адреса клика на карте с помощью обратного геокодирования</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    </head>
+
+    <body>
+        <header>
+            <h2>Прогулки по центру столицы</h2>
+            <nav>
+                <div class="nav-item">Автобусные экскурсии</div>
+                <div class="nav-item">Пешие маришруты</div>
+                <div class="nav-item">Музеи</div>
+                <div class="nav-item">Развлечения</div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div class="title">Для проверки адреса и координат кликните на область карты</div>
+            <div class="map" id="map" style="width: 500px; height: 500px;">
+                <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=6d19129d-2f44-41c5-bb36-109ab3e4a402" type="text/javascript"></script>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+    </html>
